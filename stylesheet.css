@@ -175,7 +175,7 @@ header nav {
 
   .inner-container h1{
     display: flex;
-    text-align: center;
+    text-align: left;
     align-items: center;
     height: 100vh;
     font-weight: bold;
@@ -227,8 +227,6 @@ header nav {
 
   /* Specialize Section */
 
-
-
   .specialize-section{
     margin-top: 2.5rem;
     color: white;
@@ -241,8 +239,18 @@ header nav {
     padding: 2% 5% 2% 5%;
   }
 
+  .personalized-bob img{
+    padding-bottom: 2rem;
+    width: 100%;
+  }
+
+  .specialize-icons-container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .specialize-icons-container h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     letter-spacing: .1rem;
@@ -250,7 +258,7 @@ header nav {
 
   .specialize-icons-container p{
     color: #1bf5af;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: bold;
     letter-spacing: .1rem;
     padding-top: 1rem;
