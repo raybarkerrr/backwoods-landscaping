@@ -1,0 +1,787 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.logo img{
+    width: 70px;
+}
+
+header {
+  padding: 0 20px;
+  background-color: #565759;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+
+.brand h1{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #1bf5af;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+  padding-top: 13px;
+}
+
+.brand h3{
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  color: #1bf5af;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+}
+
+.brand a {
+  color: #09c372;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: white;
+}
+
+
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#home,
+#about,
+#contact {
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+#home {
+  border: 1px solid #1bf5af;
+}
+
+#about {
+  border: 1px solid #1bf5af;
+}
+
+#contact {
+  border: 1px solid #1bf5af;
+}
+
+#about a {
+  color: #1bf5af;
+}
+
+#home a {
+  color: #1bf5af;
+}
+
+#contact a {
+  color: #1bf5af;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+  background-color: #1bf5af;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #565759;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+header nav {
+  display: none;
+}
+
+#hamburger-icon {
+  display: block;
+}
+
+
+  .hero-image-container{
+    background-image: url("Photos/Lawn-1.jpeg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2em;
+  }
+
+  .inner-container h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 54px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #e0e0e0;
+    letter-spacing: .1rem;
+  }
+
+  /* Personalized Section */
+
+  .personalized-container img{
+    width: 300px;
+  }
+
+  .personalized-content {
+    color: black;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 2% 7% 2% 7%;
+  }
+
+  .personalized-content h1{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #434243;
+    letter-spacing: .1rem;
+  }
+
+  .personalized-content h3{
+    padding-top: 0.5rem;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+    color: #1bf5af;
+    font-weight: bold;
+    letter-spacing: .1rem;
+  }
+
+  .personalized-content p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+
+  /* Specialize Section */
+
+
+
+  .specialize-section{
+    margin-top: 2.5rem;
+    color: white;
+    background-color: #393e46;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding: 2% 5% 2% 5%;
+  }
+
+  .specialize-icons-container h1{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .1rem;
+  }
+
+  .specialize-icons-container p{
+    color: #1bf5af;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    padding-top: 1rem;
+  }
+
+  .specialize-icons-container .fa-solid{
+    color: white;
+  }
+
+  .fa-solid{
+    font-size: 4.5rem;
+    color: #34495e;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+/* Coaching Section */
+
+.coaching-plan-one{
+  padding-bottom: 2rem;
+}
+
+.card-title h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: .1rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+  color: #434243;
+  padding-bottom: 2rem;
+}
+
+.coaching-section{
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEE;
+    padding-top: 2rem;
+}
+
+.coaching-section-three{
+  padding-bottom: 2rem;
+}
+
+.card-section p{
+  color: black;
+}
+
+.card{
+    height: 17em;
+    width: 20em;
+    margin: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    border-radius: 1rem;
+    background-color: white;
+    color: #34495e;
+    font-size: 14px;
+}
+
+
+/* Coaching Section 2 */
+
+.coaching-section-two{
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEE;
+}
+
+.card-section p{
+  color: black;
+}
+
+/* Coaching Section 3 */
+
+.coaching-section-three{
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEE;
+}
+
+.card-section p{
+  color: black;
+}
+
+/* Coaching Plan Section */
+
+.coaching-plan-title{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.coaching-plan-title h1{
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+  color: #434243;
+  letter-spacing: .1rem;
+
+}
+
+.coaching-plan-title p{
+  font-size: 1.3rem;
+  padding: 2% 7% 2% 7%;
+  color: #1bf5af;
+  font-weight: bold;
+}
+
+  /* Plans Section */
+
+  .plans{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2% 7% 2% 7%;
+  }
+
+  .plans p{
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 15px;
+    color: #34495e;
+    font-weight: bold;
+    letter-spacing: .1rem;
+  }
+
+  .plans h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #343434;
+    letter-spacing: .1rem;
+  }
+
+  .plans h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #1bf5af;
+    letter-spacing: .1rem;
+  }
+
+  .plans ul{
+    flex-direction: column;
+    color: #34495e;
+    font-size: 1.1rem;
+  }
+
+
+  .meep {
+    border-radius: 50%;
+  }
+
+  .plans .fa-solid{
+    color: #1bf5af;
+  }
+
+
+  /* Get Started Section */
+
+  .get-started{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2% 7% 2% 7%;
+    background-color: #393e46;
+  }
+
+  .get-started p{
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    margin: 15px;
+    color: #1bf5af;
+    font-weight: bold;
+    letter-spacing: .1rem;
+  }
+
+  .get-started h2{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #e0e0e0;
+    letter-spacing: .1rem;
+  }
+
+  .get-started h1{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #e0e0e0;
+    letter-spacing: .1rem;
+  }
+
+  /* Meet Your Trainers Section */
+
+  .meet-your-trainers{
+    text-align: center;
+    background-color: #00b7c2;
+  }
+
+  .footer-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #565759;
+    padding-top: 2rem;
+  }
+
+  .footer h1{
+    font-size: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #e0e0e0;
+    letter-spacing: .1rem;
+  }
+
+  .footer h3{
+    font-size: 1rem;
+    color: #1bf5af;
+    font-weight: bold;
+    letter-spacing: .1rem;
+  }
+
+  .footer p{
+    padding-top: .5rem;
+    font-size: .7rem;
+    color: white;
+    font-weight: bold;
+    padding: 2% 7% 2% 7%;
+  }
+
+  .fa-brands{
+    color: #1bf5af;
+    font-size: 2em;
+  }
+
+  /* About Page */ 
+
+  .about-us-image{
+    width: 300px;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+
+  .about-us-section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-us{
+    background-color: #929292;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .about-us-two{
+    background-color: #57595B;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .about-us-two h1{
+    color: #FFFFFF;
+  }
+
+  .about-us-section h1{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding: 2% 7% 2% 7%;
+    letter-spacing: .2rem;
+  }
+
+  .about-us-section h2{
+    font-size: 1rem;
+    color: #1bf5af;
+    font-weight: bold;
+    letter-spacing: .1rem;
+  }
+
+  .about-us-section p{
+    font-size: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: .1rem;
+    padding: 2% 7% 2% 7%;
+  }
+
+  /* Contact Page */
+
+  .contact-form-section{
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .contact-form-title h1{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .2rem;
+    color: #57595B;
+  }
+
+  .contact-form-title p{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    padding: 2% 7% 2% 7%;
+  }
+
+  .form-labels{
+    background-color: #f1f1f1;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .input-field{
+    width: 70%;
+    border-radius: 8px;
+    border: 0;
+    padding: .6em;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  }
+
+  .input-field-message{
+    width: 70%;
+    height: 150px;
+    border-radius: 8px;
+    resize: none;
+    border: 0;
+    padding: .8em;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  }
+
+  .form-button{
+    width: 5em;
+    width: 70%;
+    border-radius: 8px;
+    border: 0;
+    padding: .8em;
+    background-color: #e74c3c;
+    color: white;
+  }
+
+  /* Contact Us Home */
+
+  .contact-us-home{
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    background-color: #EFEFEE;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+  }
+
+  .contact-us-home h1{
+    padding-bottom: 1.5rem;
+  }
+
+  .contact-us-home button{
+    width: 5em;
+    width: 70%;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 0;
+    padding: .8em;
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+
+  /* Media Query */
+
+  
+  @media only screen and (min-width: 900px) {
+    .nav-toggle {
+      display: none;
+    }
+  
+    .nav-header {
+      display: block;
+    }
+  
+    .flex-nav {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+    }
+  
+    .nav-links {
+      height: auto;
+    }
+  
+    ul {
+      text-align: center;
+      flex-direction: row;
+      display: flex;
+      
+    }
+  
+    .nav-link {
+      display: inline-block;
+      border-bottom: none;
+    }
+  
+    .nav-links span {
+      background: rgb(70, 70, 70);
+      padding: 8px 15px;
+      border-radius: 4px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px)  {
+
+    .hero-image-container{
+      background-attachment: fixed;
+    }
+
+
+    .fa-solid{
+      font-size: 5rem;
+    }
+
+    .inner-container h1{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      font-size: 100px;
+    }
+
+    /* Personalized Content */
+
+    .personalized-content p{
+      padding-right: 15rem;
+    }
+
+    .personalized-content h1{
+      font-size: 2.7rem;
+    }
+
+    .specialize-title h1{
+      padding-top: 1rem;
+      font-size: 2.7rem;
+    }
+
+    /* Card Section */
+    
+    .card-title h1{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .specialize-icons-container{
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2% 16% 2% 16%;
+    }
+
+    .card-title h1{
+      display: flex;
+      text-align: center;
+      letter-spacing: .1rem;
+      margin-top: 3rem;
+      font-size: 2.7rem;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: lighter;
+      color: #434243;
+      padding-bottom: 0.5rem;
+    }
+    
+    .coaching-section{
+        display: flex;
+        justify-content: center;
+        background-color: #EFEFEE;
+    }
+    
+    .card{
+        height: 23em;
+        width: 25em;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .card p{
+      font-size: 18px;
+      letter-spacing: .1rem;
+      padding: 2% 20% 2% 20%;
+    }
+
+    /* Plans Section */
+
+    .plans{
+      padding: 2% 18% 2% 18%;
+    }
+
+    .plans p{
+      font-size: 1.2rem;
+    }
+  
+    .plans h2{
+      font-size: 2.5rem;
+    }
+
+    /* Get Started Section */
+
+    .get-started h2{
+      font-size: 2.5rem;
+    }
+
+    .get-started h1{
+      font-size: 2.5rem;
+    }
+
+    .get-started p{
+      font-size: 1.5rem;
+      padding: 2% 18% 2% 18%;
+    }
+  }
