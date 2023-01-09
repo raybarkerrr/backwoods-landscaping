@@ -18,11 +18,12 @@ header a {
 
 .logo img{
     width: 70px;
+    padding-top: .5rem;
 }
 
 header {
   padding: 0 20px;
-  background-color: #565759;
+  background-color: #1B1B19;
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -35,8 +36,8 @@ header {
   font-size: 20px;
   text-align: center;
   color: #1bf5af;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: lighter;
+  font-family: 'Bakbak One', cursive;
+
   padding-top: 13px;
 }
 
@@ -80,27 +81,27 @@ ul li:hover {
 }
 
 #home {
-  border: 1px solid #1bf5af;
+  border: 1px solid white;
 }
 
 #about {
-  border: 1px solid #1bf5af;
+  border: 1px solid white;
 }
 
 #contact {
-  border: 1px solid #1bf5af;
+  border: 1px solid white;
 }
 
 #about a {
-  color: #1bf5af;
+  color: white;
 }
 
 #home a {
-  color: #1bf5af;
+  color: white;
 }
 
 #contact a {
-  color: #1bf5af;
+  color: white;
 }
 
 #hamburger-icon {
@@ -115,7 +116,7 @@ ul li:hover {
   background-color: white;
   margin: 6px 0;
   transition: 0.4s;
-  background-color: #1bf5af;
+  background-color: white;
 }
 
 .open .bar1 {
@@ -182,7 +183,6 @@ header nav {
     font-size: 54px;
     color: white;
     font-family: 'Rajdhani', sans-serif;
-    font-weight: lighter;
     color: #e0e0e0;
     letter-spacing: .1rem;
   }
@@ -201,15 +201,16 @@ header nav {
     padding: 2% 7% 2% 7%;
   }
 
-  .personalized-content h1{
+  .personalized-main h1{
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
-    font-weight: lighter;
-    color: #434243;
+    font-weight: bold;
+    color: black;
     letter-spacing: .1rem;
+    padding-bottom: 1rem;
   }
 
-  .personalized-content h3{
+  .personalized-main h3{
     padding-top: 0.5rem;
     font-size: 1.3rem;
     padding-bottom: 15px;
@@ -218,11 +219,12 @@ header nav {
     letter-spacing: .1rem;
   }
 
-  .personalized-content p{
+  .personalized-main p{
     font-size: 1.1rem;
     line-height: 1.7rem;
     font-weight: bold;
     padding-bottom: 1rem;
+    
   }
 
   /* Specialize Section */
@@ -235,8 +237,7 @@ header nav {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 2rem;
-    padding: 2% 5% 2% 5%;
+    padding-bottom: 1rem;
   }
 
   .personalized-bob img{
@@ -245,12 +246,24 @@ header nav {
   }
 
   .specialize-icons-container{
-    padding-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .specialize-icons{
+    padding-bottom: 3rem;
+  }
+
+  .specialize-icons img{
+    width: 20%;
+  }
+
+  .what-we-do{
     padding-bottom: 3rem;
   }
 
   .specialize-icons-container h1{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     letter-spacing: .1rem;
@@ -342,7 +355,7 @@ header nav {
 }
 
 .card h1, .card p{
-    text-align: left;
+    text-align: center;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -356,6 +369,26 @@ header nav {
   font-size: 17px;
 }
 
+  /* Why Pick Backwoods Section */
+
+  .why-pick-backwoods{
+    color: black;
+    align-items: center;
+    text-align: center;
+  }
+
+  .why-pick-content{
+    color: black;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 7% 7% 7% 7%;
+
+  }
+
+  .why-pick-content img{
+    width: 20%;
+  }
 
 
   /* Meet Your Trainers Section */
@@ -401,145 +434,6 @@ header nav {
     font-size: 2em;
   }
 
-  /* About Page */ 
-
-  .about-us-image{
-    width: 300px;
-    height: auto;
-    padding-bottom: 1rem;
-  }
-
-  .about-us-section{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .about-us{
-    background-color: #929292;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-
-  .about-us-two{
-    background-color: #57595B;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .about-us-two h1{
-    color: #FFFFFF;
-  }
-
-  .about-us-section h1{
-    font-size: 2rem;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: lighter;
-    color: white;
-    padding: 2% 7% 2% 7%;
-    letter-spacing: .2rem;
-  }
-
-  .about-us-section h2{
-    font-size: 1rem;
-    color: #1bf5af;
-    font-weight: bold;
-    letter-spacing: .1rem;
-  }
-
-  .about-us-section p{
-    font-size: 1rem;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: lighter;
-    color: white;
-    letter-spacing: .1rem;
-    padding: 2% 7% 2% 7%;
-  }
-
-  /* Contact Page */
-
-  .contact-form-section{
-    text-align: center;
-    padding-top: 2rem;
-  }
-
-  .contact-form-title h1{
-    font-size: 2rem;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: lighter;
-    letter-spacing: .2rem;
-    color: #57595B;
-  }
-
-  .contact-form-title p{
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: .1rem;
-    padding: 2% 7% 2% 7%;
-  }
-
-  .form-labels{
-    background-color: #f1f1f1;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-  }
-
-  .input-field{
-    width: 70%;
-    border-radius: 8px;
-    border: 0;
-    padding: .6em;
-    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-  }
-
-  .input-field-message{
-    width: 70%;
-    height: 150px;
-    border-radius: 8px;
-    resize: none;
-    border: 0;
-    padding: .8em;
-    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-  }
-
-  .form-button{
-    width: 5em;
-    width: 70%;
-    border-radius: 8px;
-    border: 0;
-    padding: .8em;
-    background-color: #e74c3c;
-    color: white;
-  }
-
-  /* Contact Us Home */
-
-  .contact-us-home{
-    align-items: center;
-    text-align: center;
-    color: black;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    background-color: #EFEFEE;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: lighter;
-  }
-
-  .contact-us-home h1{
-    padding-bottom: 1.5rem;
-  }
-
-  .contact-us-home button{
-    width: 5em;
-    width: 70%;
-    font-size: 1rem;
-    border-radius: 8px;
-    border: 0;
-    padding: .8em;
-    background-color: #e74c3c;
-    color: white;
-  }
-  
 
   /* Media Query */
 
@@ -588,19 +482,6 @@ header nav {
     .hero-image-container{
       background-attachment: fixed;
     }
-
-
-    .fa-solid{
-      font-size: 5rem;
-    }
-
-    .inner-container h1{
-      display: flex;
-      text-align: center;
-      align-items: center;
-      font-size: 100px;
-    }
-
     /* Personalized Content */
 
     .personalized-content p{
@@ -673,20 +554,5 @@ header nav {
   
     .plans h2{
       font-size: 2.5rem;
-    }
-
-    /* Get Started Section */
-
-    .get-started h2{
-      font-size: 2.5rem;
-    }
-
-    .get-started h1{
-      font-size: 2.5rem;
-    }
-
-    .get-started p{
-      font-size: 1.5rem;
-      padding: 2% 18% 2% 18%;
     }
   }
