@@ -171,7 +171,6 @@ header nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 2em;
   }
 
   .inner-container h1{
@@ -183,7 +182,6 @@ header nav {
     font-size: 54px;
     color: white;
     font-family: 'Rajdhani', sans-serif;
-    color: #e0e0e0;
     letter-spacing: .1rem;
   }
 
@@ -194,18 +192,21 @@ header nav {
   }
 
   .personalized-content {
-    color: black;
     display: flex;
     text-align: left;
     flex-direction: column;
     padding: 2% 7% 2% 7%;
+    background-color: #468966;
+  }
+
+  .personalized-main{
+    padding-top: 4rem;
   }
 
   .personalized-main h1{
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
-    color: black;
     letter-spacing: .1rem;
     padding-bottom: 1rem;
   }
@@ -214,7 +215,7 @@ header nav {
     padding-top: 0.5rem;
     font-size: 1.3rem;
     padding-bottom: 15px;
-    color: #1bf5af;
+    color: #468966;
     font-weight: bold;
     letter-spacing: .1rem;
   }
@@ -224,13 +225,11 @@ header nav {
     line-height: 1.7rem;
     font-weight: bold;
     padding-bottom: 1rem;
-    
   }
 
   /* Specialize Section */
 
   .specialize-section{
-    margin-top: 2.5rem;
     color: white;
     background-color: #393e46;
     display: flex;
@@ -281,14 +280,6 @@ header nav {
     color: white;
   }
 
-  .fa-solid{
-    font-size: 4.5rem;
-    color: #34495e;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-
 /* Card Section */
 
 .card-title h1{
@@ -316,6 +307,8 @@ header nav {
     font-weight: lighter;
     color: #468966;
     padding-bottom: 3rem;
+    letter-spacing: .1rem;
+    line-height: 1.3rem;
 }
 
 .card-section p{
@@ -355,13 +348,13 @@ header nav {
 }
 
 .card h1, .card p{
-    text-align: center;
+    text-align: left;
     padding-left: 25px;
     padding-right: 25px;
 }
 
 .card h1{
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .card p{
