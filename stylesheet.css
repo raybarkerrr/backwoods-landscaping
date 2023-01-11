@@ -196,7 +196,7 @@ header nav {
     text-align: left;
     flex-direction: column;
     padding: 2% 7% 2% 7%;
-    background-color: #468966;
+    background-color: #1B1B19;
   }
 
   .personalized-main{
@@ -269,7 +269,6 @@ header nav {
   }
 
   .specialize-icons-container p{
-    color: #1bf5af;
     font-size: 1em;
     font-weight: bold;
     letter-spacing: .1rem;
