@@ -426,10 +426,21 @@ header nav {
     font-size: 2em;
   }
 
+  /* Home Page */
 
-  /* Media Query */
+  .home{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
 
-  
+  .home-container img{
+    width: 100%;
+  }
+
+    /* Media Query */
+
   @media only screen and (min-width: 900px) {
     .nav-toggle {
       display: none;
