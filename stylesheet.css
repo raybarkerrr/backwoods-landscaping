@@ -434,7 +434,9 @@ header nav {
     text-align: center;
     color: black;
     background-image: url(Photos/Gravel-2.jpeg);
-    
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat;
   }
 
   .home-container img{
