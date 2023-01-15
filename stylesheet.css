@@ -443,6 +443,117 @@ header nav {
     width: 100%;
   }
 
+  /* Contact Page */
+
+  .contact-form-section{
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .contact-form-title h1{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .2rem;
+    color: #57595B;
+  }
+
+  .contact-form-title p{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    padding: 2% 7% 2% 7%;
+  }
+
+  .form-labels{
+    background-color: #f1f1f1;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .input-field{
+    width: 70%;
+    border-radius: 8px;
+    border: 0;
+    padding: .6em;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  }
+
+  .input-field-message{
+    width: 70%;
+    height: 150px;
+    border-radius: 8px;
+    resize: none;
+    border: 0;
+    padding: .8em;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  }
+
+  .form-button{
+    width: 5em;
+    width: 70%;
+    border-radius: 8px;
+    border: 0;
+    padding: .8em;
+    background-color: #e74c3c;
+    color: white;
+  }
+
+  /* About Page */ 
+
+  .about-us-image{
+    width: 300px;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+
+  .about-us-section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-us{
+    background-color: #929292;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .about-us-two{
+    background-color: #57595B;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .about-us-two h1{
+    color: #FFFFFF;
+  }
+
+  .about-us-section h1{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding: 2% 7% 2% 7%;
+    letter-spacing: .2rem;
+  }
+
+  .about-us-section h2{
+    font-size: 1rem;
+    color: #1bf5af;
+    font-weight: bold;
+    letter-spacing: .1rem;
+  }
+
+  .about-us-section p{
+    font-size: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: .1rem;
+    padding: 2% 7% 2% 7%;
+  }
+
     /* Media Query */
 
   @media only screen and (min-width: 900px) {

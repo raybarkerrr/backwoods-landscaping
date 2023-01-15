@@ -23,10 +23,11 @@
         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
             <nav class="desktop-menu">
                 <ul>
-                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="/index.html">Main</a></li>
                     <li><a href="/about.html">About</a></li>
                     <li><a href="/contact.html">Contact</a></li>
-                    <li><a href="/shop.html">Sales</a></li>
+                    <li><a href="/shop.html">Shop</a></li>
                 </ul>
             </nav>
             <div class="bar1"></div>
@@ -34,12 +35,57 @@
             <div class="bar3"></div>
             <ul class="mobile-menu">
                 <li id="home"><a href="home.html">Home</a></li>
+                <li id="home"><a href="home.html">Main</a></li>
                 <li id="about"><a href="about.html" >About</a></li>
                 <li id="contact"><a href="contact.html">Contact</a></li>
-                <li id="shop"><a href="/shop.html">Sales</a></li>
+                <li id="shop"><a href="/shop.html">Shop</a></li>
             </ul>
         </div>
         </header>
+        <section class="contact-form-section">
+            <div class="contact-form-title">
+                <h1>CONTACT US</h1>
+                <p>PLEASE PROVIDE YOUR EMAIL AND PHONE NUMBER AND WE WILL CONTACT YOU TO SET UP A CONSULTATION CALL!</p>
+            </div>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="form-labels">
+                    <p>
+                        <input type="text" class="input-field" placeholder="Name" id="name" name="name" />
+                    </p>
+                    <p>
+                        <input type="email" class="input-field" placeholder="Email" id="email" name="email" />
+                    </p>
+                    <p>
+                        <input type="phone" class="input-field" placeholder="Phone" id="phone" name="phone" />
+                    </p>
+                    <p>   
+                        <input type="subject" class="input-field" placeholder="Subject" id="subject" name="subject" />
+                    </p>
+                    <p>
+                        <textarea type="message" class="input-field-message" placeholder="Message" id="message" name="message" ></textarea>
+                    </p>
+                    <p>
+                        <button class="form-button" type="submit">Send</button>
+                    </p>
+                </div>
+            </form>
+        </section>
+        <section class="footer-section">
+            <div class="footer">
+                <h1>ADVANCED FITNESS</h1>
+                <h3>Follow us on our socials</h3>
+                <a href="https://www.instagram.com/advanced_fitness_/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100087589502743&mibextid=LQQJ4d">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.tiktok.com/@apt_coaching?_t=8YoWIpHoZri&_r=1">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <p>© ADVANCED FITNESS 2022. ALL RIGHT RESERVED. ® ADVANCED FITNESS IS A REGISTERED TRADEMARK</p>
+            </div>
+        </section>
         <script src="javascript.js" async defer></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
