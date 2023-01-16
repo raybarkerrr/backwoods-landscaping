@@ -296,7 +296,7 @@ header nav {
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     font-size: 30px;
-    color: #468966;
+    color: black;
   }    
 
   .card-title h3{
@@ -304,7 +304,7 @@ header nav {
     flex-direction: column;
     font-size: 20px;
     padding-bottom: 40px;
-    color: #468966;
+    color: black;
   }    
 
 .card-section{
@@ -313,8 +313,7 @@ header nav {
     flex-wrap: wrap;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
-    color: #468966;
-    padding-bottom: 3rem;
+    background-color: #1B1B19;
     letter-spacing: .1rem;
     line-height: 1.3rem;
 }
@@ -323,13 +322,19 @@ header nav {
   color: black;
 }
 
+.card-section h1{
+  color: black;
+}
+
 .card{
-    height: 30em;
+    height: 27em;
     width: 17em;
     background: white;
     margin: 10px;
     border-radius: 5px;
-    box-shadow: 0px 0px 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
 }
 
 .card-image {
@@ -357,8 +362,6 @@ header nav {
 
 .card h1, .card p{
     text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 
 .card h1{
@@ -372,10 +375,19 @@ header nav {
 
   /* Why Pick Backwoods Section */
 
+  .why-us-section{
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+  }
+
   .why-pick-backwoods{
     color: black;
     align-items: center;
     text-align: center;
+  }
+
+  .why-pick-backwoods h1{
+    padding-bottom: 1.5rem;
   }
 
   .why-pick-content{
@@ -470,24 +482,21 @@ header nav {
     color: #57595B;
   }
 
-  .contact-form-title p{
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: .1rem;
-    padding: 2% 7% 2% 7%;
-  }
-
   .form-labels{
     background-color: #f1f1f1;
     padding-top: 3rem;
     padding-bottom: 2rem;
   }
 
+  .contact-form-section p{
+    padding: .5rem;
+  }
+
   .input-field{
     width: 70%;
     border-radius: 8px;
     border: 0;
-    padding: .6em;
+    padding: .9em;
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
   }
 
