@@ -37,7 +37,6 @@ header {
   text-align: center;
   color: #1bf5af;
   font-family: 'Bakbak One', cursive;
-
   padding-top: 13px;
 }
 
@@ -75,7 +74,9 @@ ul li:hover {
 
 #home,
 #about,
-#contact {
+#contact,
+#main,
+#shop {
   border-radius: 5px;
   padding: 5px 8px;
 }
@@ -102,6 +103,14 @@ ul li:hover {
 
 #contact a {
   color: white;
+}
+
+#main{
+  border: 1px solid white;
+}
+
+#shop{
+  border: 1px solid white;
 }
 
 #hamburger-icon {
@@ -432,8 +441,7 @@ header nav {
     display: flex;
     align-items: center;
     text-align: center;
-    color: black;
-    background-image: url(Photos/Gravel-2.jpeg);
+    background-color: #1B1B19;
     height: 100vh;
     background-position: center;
     background-repeat:no-repeat;
@@ -441,6 +449,10 @@ header nav {
 
   .home-container img{
     width: 100%;
+  }
+
+  .home-container p{
+    padding-top: 1rem;
   }
 
   /* Contact Page */
