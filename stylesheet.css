@@ -373,37 +373,6 @@ header nav {
   font-size: 17px;
 }
 
-  /* Why Pick Backwoods Section */
-
-  .why-us-section{
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-  }
-
-  .why-pick-backwoods{
-    color: black;
-    align-items: center;
-    text-align: center;
-  }
-
-  .why-pick-backwoods h1{
-    padding-bottom: 1.5rem;
-  }
-
-  .why-pick-content{
-    color: black;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    padding: 7% 7% 7% 7%;
-
-  }
-
-  .why-pick-content img{
-    width: 20%;
-  }
-
-
   /* Meet Your Trainers Section */
 
   .meet-your-trainers{
@@ -522,7 +491,7 @@ header nav {
 
   /* About Page */ 
 
-  .about-us-image{
+  .about-us-section img{
     width: 300px;
     height: auto;
     padding-bottom: 1rem;
@@ -573,6 +542,10 @@ header nav {
     color: white;
     letter-spacing: .1rem;
     padding: 2% 7% 2% 7%;
+  }
+
+  .about-us-body{
+
   }
 
     /* Media Query */
