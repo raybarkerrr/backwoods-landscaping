@@ -174,7 +174,7 @@ header nav {
 
 
   .hero-image-container{
-    background-image: url("Photos/Lawn-1.jpeg");
+    background-image: url("Photos/IMG_3251.jpg");
     height: auto;
     width: 100%;
     background-repeat: no-repeat;
@@ -184,8 +184,7 @@ header nav {
 
   .inner-container h1{
     display: flex;
-    text-align: left;
-    align-items: center;
+    text-align: center;
     height: 100vh;
     font-weight: bold;
     font-size: 54px;
@@ -451,6 +450,14 @@ header nav {
     color: #57595B;
   }
 
+  .contact-form-title p{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .2rem;
+    color: #57595B;
+  }
+
   .form-labels{
     background-color: #f1f1f1;
     padding-top: 3rem;
@@ -485,7 +492,7 @@ header nav {
     border-radius: 8px;
     border: 0;
     padding: .8em;
-    background-color: #e74c3c;
+    background-color: #1bf5af;
     color: white;
   }
 
@@ -604,6 +611,11 @@ header nav {
       font-size: 2.7rem;
     }
 
+    .personalized-bob img{
+      padding-bottom: 2rem;
+      width: 50%;
+    }
+
     .specialize-title h1{
       padding-top: 1rem;
       font-size: 2.7rem;
@@ -667,4 +679,6 @@ header nav {
     .plans h2{
       font-size: 2.5rem;
     }
+
+
   }
