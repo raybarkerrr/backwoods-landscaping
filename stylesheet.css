@@ -78,7 +78,7 @@ ul li:hover {
 #main,
 #shop {
   border-radius: 5px;
-  padding: 5px 8px;
+  padding: 522px 8px;
 }
 
 #home {
@@ -422,7 +422,7 @@ header nav {
     align-items: center;
     text-align: center;
     background-color: #1B1B19;
-    height: 100vh;
+    height: 77.5vh;
     background-position: center;
     background-repeat:no-repeat;
   }
