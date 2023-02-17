@@ -172,6 +172,37 @@ header nav {
   display: block;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+section.hero {
+  display: grid;
+  place-items: left;
+}
+
+section.hero>* {
+  grid-area: 1 / 1;
+}
+
+section.hero img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: blur(2px);
+  height: 100vh;
+  isolation: isolate;
+  z-index: -1;
+}
+
+section.hero h2 {
+  padding: 0.6em 1em;
+  background-color: hsl(0 0% 0% / 0.4);
+    
+  color: whitesmoke;
+}
 
   .hero-image-container{
     background-image: url("Photos/IMG_3251.jpg");
@@ -181,15 +212,6 @@ header nav {
     background-size: cover;
     background-position: center;
   }
-
-  .glass{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
 
   .inner-container h1 p{
     display: flex;
@@ -210,13 +232,11 @@ header nav {
     text-align: left;
     flex-direction: column;
     padding: 2% 7% 2% 7%;
-  }
-
-  .personalized-main{
     padding-top: 4rem;
+
   }
 
-  .personalized-main h1{
+  .personalized-content h1{
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
@@ -224,7 +244,7 @@ header nav {
     padding-bottom: 1rem;
   }
 
-  .personalized-main h3{
+  .personalized-content h3{
     padding-top: 0.5rem;
     font-size: 1.3rem;
     padding-bottom: 15px;
@@ -233,7 +253,7 @@ header nav {
     letter-spacing: .1rem;
   }
 
-  .personalized-main p{
+  .personalized-content p{
     font-size: 1.1rem;
     line-height: 1.7rem;
     font-weight: bold;
