@@ -219,50 +219,6 @@ section.hero .hero-text {
   color: white;
 }
 
-  /* Meet Your Trainers Section */
-
-  .meet-your-trainers{
-    text-align: center;
-    background-color: #00b7c2;
-  }
-
-  .footer-section{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #1B1B19;
-    padding-top: 2rem;
-  }
-
-  .footer h1{
-    font-size: 1rem;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: lighter;
-    color: #e0e0e0;
-    letter-spacing: .1rem;
-  }
-
-  .footer h3{
-    font-size: .7rem;
-    color: #1bf5af;
-    font-weight: bold;
-    letter-spacing: .1rem;
-  }
-
-  .footer p{
-    padding-top: .5rem;
-    font-size: .7rem;
-    color: white;
-    font-weight: bold;
-    padding: 2% 7% 2% 7%;
-  }
-
-  .fa-brands{
-    color: #1bf5af;
-    font-size: 2em;
-  }
-
-
   /* Home Page */
 
   .home{
@@ -270,7 +226,7 @@ section.hero .hero-text {
     align-items: center;
     text-align: center;
     background-color: #1B1B19;
-    height: 77.5vh;
+    height: 85vh;
     background-position: center;
     background-repeat:no-repeat;
   }
@@ -412,6 +368,17 @@ section.hero .hero-text {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+
+  .shop-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    padding-top: 3rem;
   }
 
   .card {
@@ -420,6 +387,8 @@ section.hero .hero-text {
     margin: 10px;
     border-radius: 15px;
     background-color: grey;
+    padding-bottom: 30rem;
+
   }
 
   .card h2{
@@ -460,7 +429,61 @@ section.hero .hero-text {
     background-image: url(Photos/Hat4.JPG);
   }
 
+  .car-5 {
+    background-image: url(Photos/Hat5.JPG);
+  }
+
+  .car-6 {
+    background-image: url(Photos/Hat6.JPG);
+  }
   
+  .car-7 {
+    background-image: url(Photos/Hat7.JPG);
+  }
+
+  .car-8 {
+    background-image: url(Photos/Hat7.JPG);
+  }
+
+  /* Footer Section */
+
+  
+  .footer-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1B1B19;
+    padding-top: 1rem;
+  }
+
+  .footer h1{
+    font-size: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #e0e0e0;
+    letter-spacing: .1rem;
+  }
+
+  .footer h3{
+    font-size: .5rem;
+    color: #1bf5af;
+    font-weight: bold;
+    letter-spacing: .1rem;
+  }
+
+  .footer p{
+    padding-top: .5rem;
+    font-size: .4rem;
+    color: white;
+    font-weight: bold;
+    padding: 2% 7% 2% 7%;
+  }
+
+  .fa-brands{
+    color: #1bf5af;
+    font-size: 2em;
+  }
+
 
 
   .carousel-indicators {
@@ -513,13 +536,7 @@ section.hero .hero-text {
       /* Home Page */
 
   .home{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background-color: #1B1B19;
-    height: 77.5vh;
-    background-position: center;
-    background-repeat:no-repeat;
+    height: 88vh;
     padding-left: 15.5rem;
   }
 
@@ -591,6 +608,16 @@ section.hero .hero-text {
   
     .plans h2{
       font-size: 2.5rem;
+    }
+
+    /* Card Section */
+
+    .shop-title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      
     }
 
 
