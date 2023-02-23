@@ -201,7 +201,7 @@ section.hero img {
 }
 
 section.hero .hero-text {  
-  padding: 0.6em 1em;  
+  padding: 2.2em 1em;  
 }
 
 .hero-text h1{
@@ -233,10 +233,17 @@ section.hero .hero-text {
 
   .home-container img{
     width: 100%;
+    padding-bottom: 20px;
   }
 
-  .home-container p{
-    padding-top: 1rem;
+  .customer-review h1{
+    padding-top: 15px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .customer-review p{
+    color: white;
   }
 
   /* Contact Page */
@@ -370,6 +377,7 @@ section.hero .hero-text {
     flex-wrap: wrap;
     padding-bottom: 3rem;
     padding-top: 3rem;
+    background-color: #e0e0e0;
   }
 
   .shop-title{
@@ -383,12 +391,11 @@ section.hero .hero-text {
 
   .card {
     width: 270px;
-    height: 430px;
+    height: 470px;
     margin: 10px;
     border-radius: 15px;
-    background-color: grey;
-    padding-bottom: 30rem;
-
+    background-color: white;
+    padding-bottom: 20rem;
   }
 
   .card h2{
@@ -405,6 +412,13 @@ section.hero .hero-text {
     color: black;
     padding-bottom: 15px;
     padding-top: 5px;
+  }
+
+  .button-mover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .card-image {
@@ -444,6 +458,16 @@ section.hero .hero-text {
   .car-8 {
     background-image: url(Photos/Hat7.JPG);
   }
+
+  .shop-button{
+    width: 100%;
+    border-radius: 8px;
+    border: 0;
+    padding: .8em;
+    background-color: #1bf5af;
+    color: white;  
+    }
+
 
   /* Footer Section */
 
