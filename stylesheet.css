@@ -238,16 +238,6 @@ section.hero .hero-text {
     padding-bottom: 20px;
   }
 
-  .customer-review h1{
-    padding-top: 15px;
-    color: white;
-    font-size: 20px;
-  }
-
-  .customer-review p{
-    color: white;
-  }
-
   /* Contact Page */
 
   .contact-form-section{
@@ -313,6 +303,8 @@ section.hero .hero-text {
     padding: .8em;
     background-color: #1bf5af;
     color: white;
+    cursor: pointer;
+
   }
 
   /* About Page */ 
